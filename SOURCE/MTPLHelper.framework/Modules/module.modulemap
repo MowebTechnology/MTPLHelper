@@ -1,0 +1,11 @@
+framework module MTPLHelper {
+  umbrella header "MTPLHelper.h"
+
+  export *
+  module * { export * }
+}
+
+module MTPLHelper.Swift {
+    header "MTPLHelper-Swift.h"
+    requires objc
+}
