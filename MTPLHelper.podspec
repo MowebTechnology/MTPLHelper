@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '11.1'
 s.name             = 'MTPLHelper'
-s.version          = '0.0.9'
+s.version          = '0.0.10'
 s.summary          = 'A summary to MTPLHelper.'
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -14,9 +14,10 @@ s.homepage         = 'https://github.com/MowebTechnology/MTPLHelper'
 
 s.framework = "UIKit"
 s.dependency 'ReachabilitySwift'
+s.dependency 'MTPLGeneral'
 
 s.authors          = { 'iOS Moweb' => 'projects@moweb.com' }
-s.source           = { :http => 'https://github.com/MowebTechnology/MTPLHelper/releases/download/0.0.9/MTPLHelper.zip' }
+s.source           = { :http => 'https://github.com/MowebTechnology/MTPLHelper/releases/download/0.0.10/MTPLHelper.zip' }
 
 s.ios.vendored_frameworks = 'MTPLHelper.framework'
 
